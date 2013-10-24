@@ -17,6 +17,9 @@
     // How strong is this zombie?  How many times does it have to be hit until it's dead?
     NSUInteger hitsUntilDead;
     
+    // Remaining strength
+    NSUInteger remainingHitsUntilDead;
+    
     // How much money does this zombie have?
     double money;
     
