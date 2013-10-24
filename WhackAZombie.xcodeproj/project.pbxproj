@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0328512F1818AA4400195DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0328512E1818AA4400195DA1 /* Foundation.framework */; };
+		032851311818AA4400195DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032851301818AA4400195DA1 /* CoreGraphics.framework */; };
+		032851331818AA4400195DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032851321818AA4400195DA1 /* UIKit.framework */; };
+		032851391818AA4400195DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032851371818AA4400195DA1 /* InfoPlist.strings */; };
+		0328513B1818AA4400195DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328513A1818AA4400195DA1 /* main.m */; };
+		0328513F1818AA4400195DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328513E1818AA4400195DA1 /* AppDelegate.m */; };
+		032851421818AA4400195DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032851401818AA4400195DA1 /* Main.storyboard */; };
+		032851451818AA4400195DA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851441818AA4400195DA1 /* ViewController.m */; };
+		032851471818AA4400195DA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032851461818AA4400195DA1 /* Images.xcassets */; };
+		0328514E1818AA4400195DA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0328514D1818AA4400195DA1 /* XCTest.framework */; };
+		0328514F1818AA4400195DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0328512E1818AA4400195DA1 /* Foundation.framework */; };
+		032851501818AA4400195DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032851321818AA4400195DA1 /* UIKit.framework */; };
+		032851581818AA4400195DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032851561818AA4400195DA1 /* InfoPlist.strings */; };
+		0328515A1818AA4400195DA1 /* WhackAZombieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851591818AA4400195DA1 /* WhackAZombieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032851511818AA4400195DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032851231818AA4300195DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0328512A1818AA4300195DA1;
+			remoteInfo = WhackAZombie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0328512B1818AA4300195DA1 /* WhackAZombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhackAZombie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0328512E1818AA4400195DA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		032851301818AA4400195DA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		032851321818AA4400195DA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		032851361818AA4400195DA1 /* WhackAZombie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhackAZombie-Info.plist"; sourceTree = "<group>"; };
+		032851381818AA4400195DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0328513A1818AA4400195DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0328513C1818AA4400195DA1 /* WhackAZombie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhackAZombie-Prefix.pch"; sourceTree = "<group>"; };
+		0328513D1818AA4400195DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0328513E1818AA4400195DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		032851411818AA4400195DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032851431818AA4400195DA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		032851441818AA4400195DA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		032851461818AA4400195DA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0328514C1818AA4400195DA1 /* WhackAZombieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhackAZombieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0328514D1818AA4400195DA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		032851551818AA4400195DA1 /* WhackAZombieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhackAZombieTests-Info.plist"; sourceTree = "<group>"; };
+		032851571818AA4400195DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		032851591818AA4400195DA1 /* WhackAZombieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhackAZombieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032851281818AA4300195DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032851311818AA4400195DA1 /* CoreGraphics.framework in Frameworks */,
+				032851331818AA4400195DA1 /* UIKit.framework in Frameworks */,
+				0328512F1818AA4400195DA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032851491818AA4400195DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0328514E1818AA4400195DA1 /* XCTest.framework in Frameworks */,
+				032851501818AA4400195DA1 /* UIKit.framework in Frameworks */,
+				0328514F1818AA4400195DA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032851221818AA4300195DA1 = {
+			isa = PBXGroup;
+			children = (
+				032851341818AA4400195DA1 /* WhackAZombie */,
+				032851531818AA4400195DA1 /* WhackAZombieTests */,
+				0328512D1818AA4400195DA1 /* Frameworks */,
+				0328512C1818AA4300195DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0328512C1818AA4300195DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0328512B1818AA4300195DA1 /* WhackAZombie.app */,
+				0328514C1818AA4400195DA1 /* WhackAZombieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0328512D1818AA4400195DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0328512E1818AA4400195DA1 /* Foundation.framework */,
+				032851301818AA4400195DA1 /* CoreGraphics.framework */,
+				032851321818AA4400195DA1 /* UIKit.framework */,
+				0328514D1818AA4400195DA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		032851341818AA4400195DA1 /* WhackAZombie */ = {
+			isa = PBXGroup;
+			children = (
+				0328513D1818AA4400195DA1 /* AppDelegate.h */,
+				0328513E1818AA4400195DA1 /* AppDelegate.m */,
+				032851401818AA4400195DA1 /* Main.storyboard */,
+				032851431818AA4400195DA1 /* ViewController.h */,
+				032851441818AA4400195DA1 /* ViewController.m */,
+				032851461818AA4400195DA1 /* Images.xcassets */,
+				032851351818AA4400195DA1 /* Supporting Files */,
+			);
+			path = WhackAZombie;
+			sourceTree = "<group>";
+		};
+		032851351818AA4400195DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032851361818AA4400195DA1 /* WhackAZombie-Info.plist */,
+				032851371818AA4400195DA1 /* InfoPlist.strings */,
+				0328513A1818AA4400195DA1 /* main.m */,
+				0328513C1818AA4400195DA1 /* WhackAZombie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		032851531818AA4400195DA1 /* WhackAZombieTests */ = {
+			isa = PBXGroup;
+			children = (
+				032851591818AA4400195DA1 /* WhackAZombieTests.m */,
+				032851541818AA4400195DA1 /* Supporting Files */,
+			);
+			path = WhackAZombieTests;
+			sourceTree = "<group>";
+		};
+		032851541818AA4400195DA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032851551818AA4400195DA1 /* WhackAZombieTests-Info.plist */,
+				032851561818AA4400195DA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0328512A1818AA4300195DA1 /* WhackAZombie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0328515D1818AA4400195DA1 /* Build configuration list for PBXNativeTarget "WhackAZombie" */;
+			buildPhases = (
+				032851271818AA4300195DA1 /* Sources */,
+				032851281818AA4300195DA1 /* Frameworks */,
+				032851291818AA4300195DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhackAZombie;
+			productName = WhackAZombie;
+			productReference = 0328512B1818AA4300195DA1 /* WhackAZombie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0328514B1818AA4400195DA1 /* WhackAZombieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032851601818AA4400195DA1 /* Build configuration list for PBXNativeTarget "WhackAZombieTests" */;
+			buildPhases = (
+				032851481818AA4400195DA1 /* Sources */,
+				032851491818AA4400195DA1 /* Frameworks */,
+				0328514A1818AA4400195DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032851521818AA4400195DA1 /* PBXTargetDependency */,
+			);
+			name = WhackAZombieTests;
+			productName = WhackAZombieTests;
+			productReference = 0328514C1818AA4400195DA1 /* WhackAZombieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032851231818AA4300195DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Apperture;
+				TargetAttributes = {
+					0328514B1818AA4400195DA1 = {
+						TestTargetID = 0328512A1818AA4300195DA1;
+					};
+				};
+			};
+			buildConfigurationList = 032851261818AA4300195DA1 /* Build configuration list for PBXProject "WhackAZombie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032851221818AA4300195DA1;
+			productRefGroup = 0328512C1818AA4300195DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0328512A1818AA4300195DA1 /* WhackAZombie */,
+				0328514B1818AA4400195DA1 /* WhackAZombieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032851291818AA4300195DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032851471818AA4400195DA1 /* Images.xcassets in Resources */,
+				032851391818AA4400195DA1 /* InfoPlist.strings in Resources */,
+				032851421818AA4400195DA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0328514A1818AA4400195DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032851581818AA4400195DA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032851271818AA4300195DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032851451818AA4400195DA1 /* ViewController.m in Sources */,
+				0328513F1818AA4400195DA1 /* AppDelegate.m in Sources */,
+				0328513B1818AA4400195DA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032851481818AA4400195DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0328515A1818AA4400195DA1 /* WhackAZombieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032851521818AA4400195DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0328512A1818AA4300195DA1 /* WhackAZombie */;
+			targetProxy = 032851511818AA4400195DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032851371818AA4400195DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032851381818AA4400195DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		032851401818AA4400195DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032851411818AA4400195DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		032851561818AA4400195DA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032851571818AA4400195DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0328515B1818AA4400195DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0328515C1818AA4400195DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0328515E1818AA4400195DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhackAZombie/WhackAZombie-Prefix.pch";
+				INFOPLIST_FILE = "WhackAZombie/WhackAZombie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0328515F1818AA4400195DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhackAZombie/WhackAZombie-Prefix.pch";
+				INFOPLIST_FILE = "WhackAZombie/WhackAZombie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		032851611818AA4400195DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhackAZombie.app/WhackAZombie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhackAZombie/WhackAZombie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhackAZombieTests/WhackAZombieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		032851621818AA4400195DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhackAZombie.app/WhackAZombie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhackAZombie/WhackAZombie-Prefix.pch";
+				INFOPLIST_FILE = "WhackAZombieTests/WhackAZombieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032851261818AA4300195DA1 /* Build configuration list for PBXProject "WhackAZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0328515B1818AA4400195DA1 /* Debug */,
+				0328515C1818AA4400195DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0328515D1818AA4400195DA1 /* Build configuration list for PBXNativeTarget "WhackAZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0328515E1818AA4400195DA1 /* Debug */,
+				0328515F1818AA4400195DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		032851601818AA4400195DA1 /* Build configuration list for PBXNativeTarget "WhackAZombieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032851611818AA4400195DA1 /* Debug */,
+				032851621818AA4400195DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032851231818AA4300195DA1 /* Project object */;
+}
