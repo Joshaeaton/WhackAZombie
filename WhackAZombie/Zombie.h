@@ -49,6 +49,7 @@
 
 // Accessor methods for getting and setting zombie remaining strength
 -(NSUInteger)remainingHitsUntilDead;
+-(void)setRemainingHitsUntilDead:(NSUInteger)newRemainingHitsUntilDead;
 
 // Accessor methods for getting and setting how much money the zombie has in its pocket
 -(double)money;

@@ -58,6 +58,11 @@
     return remainingHitsUntilDead;
 }
 
+-(void)setRemainingHitsUntilDead:(NSUInteger)newRemainingHitsUntilDead {
+    remainingHitsUntilDead = newRemainingHitsUntilDead;
+}
+
+
 // Accessor methods for getting and setting how much money the zombie has in its pocket
 -(double)money {
     return money;

@@ -22,6 +22,7 @@
 		032851581818AA4400195DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032851561818AA4400195DA1 /* InfoPlist.strings */; };
 		0328515A1818AA4400195DA1 /* WhackAZombieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851591818AA4400195DA1 /* WhackAZombieTests.m */; };
 		032851651818AB9400195DA1 /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851641818AB9400195DA1 /* Zombie.m */; };
+		032851681818C27700195DA1 /* ImprovedZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851671818C27700195DA1 /* ImprovedZombie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		032851591818AA4400195DA1 /* WhackAZombieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhackAZombieTests.m; sourceTree = "<group>"; };
 		032851631818AB9400195DA1 /* Zombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
 		032851641818AB9400195DA1 /* Zombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zombie.m; sourceTree = "<group>"; };
+		032851661818C27700195DA1 /* ImprovedZombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImprovedZombie.h; sourceTree = "<group>"; };
+		032851671818C27700195DA1 /* ImprovedZombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImprovedZombie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				032851631818AB9400195DA1 /* Zombie.h */,
 				032851641818AB9400195DA1 /* Zombie.m */,
+				032851661818C27700195DA1 /* ImprovedZombie.h */,
+				032851671818C27700195DA1 /* ImprovedZombie.m */,
 				0328513D1818AA4400195DA1 /* AppDelegate.h */,
 				0328513E1818AA4400195DA1 /* AppDelegate.m */,
 				032851401818AA4400195DA1 /* Main.storyboard */,
@@ -257,6 +262,7 @@
 				032851451818AA4400195DA1 /* ViewController.m in Sources */,
 				032851651818AB9400195DA1 /* Zombie.m in Sources */,
 				0328513F1818AA4400195DA1 /* AppDelegate.m in Sources */,
+				032851681818C27700195DA1 /* ImprovedZombie.m in Sources */,
 				0328513B1818AA4400195DA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
