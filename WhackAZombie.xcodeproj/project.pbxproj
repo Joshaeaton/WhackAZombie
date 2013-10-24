@@ -21,6 +21,7 @@
 		032851501818AA4400195DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032851321818AA4400195DA1 /* UIKit.framework */; };
 		032851581818AA4400195DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032851561818AA4400195DA1 /* InfoPlist.strings */; };
 		0328515A1818AA4400195DA1 /* WhackAZombieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851591818AA4400195DA1 /* WhackAZombieTests.m */; };
+		032851651818AB9400195DA1 /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 032851641818AB9400195DA1 /* Zombie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		032851551818AA4400195DA1 /* WhackAZombieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhackAZombieTests-Info.plist"; sourceTree = "<group>"; };
 		032851571818AA4400195DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		032851591818AA4400195DA1 /* WhackAZombieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhackAZombieTests.m; sourceTree = "<group>"; };
+		032851631818AB9400195DA1 /* Zombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
+		032851641818AB9400195DA1 /* Zombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zombie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		032851341818AA4400195DA1 /* WhackAZombie */ = {
 			isa = PBXGroup;
 			children = (
+				032851631818AB9400195DA1 /* Zombie.h */,
+				032851641818AB9400195DA1 /* Zombie.m */,
 				0328513D1818AA4400195DA1 /* AppDelegate.h */,
 				0328513E1818AA4400195DA1 /* AppDelegate.m */,
 				032851401818AA4400195DA1 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032851451818AA4400195DA1 /* ViewController.m in Sources */,
+				032851651818AB9400195DA1 /* Zombie.m in Sources */,
 				0328513F1818AA4400195DA1 /* AppDelegate.m in Sources */,
 				0328513B1818AA4400195DA1 /* main.m in Sources */,
 			);
