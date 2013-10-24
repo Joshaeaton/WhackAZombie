@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Zombie.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *whatToFeedThem;
+
+    
+    whatToFeedThem = [Zombie favoriteFood];
+    NSLog(@"food=%@",whatToFeedThem);
+    
+    Zombie *myCoolZombie;
+    
+    myCoolZombie = [[Zombie alloc] initWithName:@"Steve" hitsUntilDead:10];
+    
+    myCoolZombie = [[Zombie alloc] init];
+    [myCoolZombie setName:@"Steve"];
+    [myCoolZombie setHitsUntilDead:10];
+    
+    [myCoolZombie setHitsUntilDead:5];
+    
 }
 
 - (void)didReceiveMemoryWarning

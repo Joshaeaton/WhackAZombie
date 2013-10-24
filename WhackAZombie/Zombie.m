@@ -53,6 +53,11 @@
     hitsUntilDead = newHitsUntilDead;
 }
 
+// Accessor methods for getting remaining zombie health
+-(NSUInteger)remainingHitsUntilDead {
+    return remainingHitsUntilDead;
+}
+
 // Accessor methods for getting and setting how much money the zombie has in its pocket
 -(double)money {
     return money;
